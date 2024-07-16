@@ -56,6 +56,7 @@ fn main() {
 
     println! ( "{}", BlinkMsg (String::from("BLINK..blink..Messages..."), ANSICOLOR::WHT, ANSICOLOR::MAG) );
     show256 ();
+    println! ("");
     testMode ();
     println! ( "{}", RST )
 }
